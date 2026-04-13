@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url('./static/JetBrainsMono.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body,
+#app {
+  width: 100dvw;
+  height: 100dvh;
+  margin: 0;
+  display: flex;
+  padding: 0;
+  background-color: #282828;
+  color: white;
+  font-family: 'JetBrainsMono', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+}
+
+#app {
+  padding: 10px;
+}
+
+/*TODO: SET COLORS AS VARS*/
+
+.keyword {
+  color:  #79c0ff;
+}
+
+.class {
+  color: #d2a8ff;
+}
+
+.type {
+  color: #79c0ff;
+}
+
+.entype {
+  color: #4ec9b0;
+}
+
+.fn {
+  color: #d3daa6;
+}
+
+.string {
+  color: #d69d68;
+}
+
+.code {
+  padding: 20px;
+  border-radius: 10px;
+}
